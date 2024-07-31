@@ -1,5 +1,4 @@
 import { CloudIcon } from "@heroicons/react/24/outline";
-import GitHub from "../../public/github.svg";
 
 const Footer: React.FC = () => {
   return (
@@ -10,16 +9,10 @@ const Footer: React.FC = () => {
             <CloudIcon className="w-5 h-5 mr-1.5" />
             Powered by Amazon Web Services
           </div>
+          <div className="inline-flex items-center">
           <div className="inline-flex items-center hover:underline underline-offset-2">
-            <img
-              src={GitHub}
-              alt="React Logo"
-              width={20}
-              className="mr-1.5 py-2 mx-2"
-            />
-            <a href="https://github.com/aws-samples/serverless-pdf-chat">
-              Source code on GitHub
-            </a>
+          <a href="https://vn.linkedin.com/jobs/view/junior-intern-cloud-solution-architect-at-cloud-kinetics-vietnam-3981082984" className="hover:underline me-4 md:me-6">CKVN SA Team with ❤️</a>
+            </div>
           </div>
         </div>
       </footer>
